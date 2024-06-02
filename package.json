@@ -1,9 +1,14 @@
 {
   "name": "web-server",
+  "engines": {
+    "node": "v20.10.0",
+    "npm": "10.2.5"
+  },
   "version": "1.0.0",
   "description": "learn to build nodejs project",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ryota sonoda",
